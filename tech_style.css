@@ -1,7 +1,11 @@
-h1, h2 {
+h1, h2, h3 {
 	text-align: center;
 	font-family: "Jura", sans-serif;
 	text-decoration: underline;
+}
+
+#non {
+	text-decoration: none;
 }
 
 .image {
@@ -14,17 +18,59 @@ h1, h2 {
 	margin-bottom: 50px;
 }
 
-.image:hover ~ #text1 {
-	display: block;
+.hidetext {
+	opacity: 0;
+	margin: 0 auto;
+	width: 650px;
+}
+
+#image1:hover ~ #text1 {
+	opacity: 1;
 	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
         -ms-animation: fadein 2s; /* Internet Explorer */
             animation: fadein 2s;
 }
 
-.hidetext {
-	display: none;
-	margin: 0 auto;
-	width: 650px;
+#image2:hover ~ #text2 {
+	opacity: 1;
+	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+            animation: fadein 2s;
+}
+
+#image3:hover ~ #text3 {
+	opacity: 1;
+	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+            animation: fadein 2s;
+}
+
+#image4:hover ~ #text4 {
+	opacity: 1;
+	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+            animation: fadein 2s;
+}
+
+#image5:hover ~ #text5 {
+	opacity: 1;
+	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+            animation: fadein 2s;
+}
+
+#image6:hover ~ #text6 {
+	opacity: 1;
+	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+            animation: fadein 2s;
+}
+
+#image7:hover ~ #text7 {
+	opacity: 1;
+	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+            animation: fadein 2s;
 }
 
 p {
@@ -32,10 +78,18 @@ p {
 	font-family: sans-serif;
 }
 
+em:hover {
+	color: #1975FF;
+}
+
 img {
 	border-radius: 30px 30px 0 0;
 	height: 350px;
 	width: 650px;
+}
+
+#quiz {
+	color:rgba(0, 150, 140, 0.7);
 }
 
 body {
